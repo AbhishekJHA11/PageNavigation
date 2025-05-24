@@ -1,18 +1,40 @@
-HEAD
+# React Document Manager
 
-# React + Vite
+A frontend-only React application built with Vite that allows users to sign up, log in, and manage documents (upload, view, update, delete) using browser localStorage. No backend is required.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication:** Sign up and log in without a backend.
+- **Document Management:** Upload, list, update, and delete documents.
+- **State Persistence:** Uses `localStorage` to persist user sessions and documents.
+- **Responsive Design:** Clean and modern UI with responsive layout.
+- **React Router:** Smooth navigation between pages (Sign Up, Login, Dashboard).
+- **Modern Frontend Stack:** Built with React (JSX), Vite, and CSS.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
 
-# PageNavigation
+src/
+├── components/
+│ ├── SignUp.jsx
+│ ├── Login.jsx
+│ └── Dashboard.jsx
+├── utils/
+│ └── auth.js
+├── App.jsx
+├── main.jsx
+├── App.css
 
-2b320b822d472a95a88a05767637a17215d574f6
+---
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/react-doc-manager.git
+cd react-doc-manager
+```
